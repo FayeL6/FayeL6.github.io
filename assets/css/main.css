@@ -35,23 +35,22 @@ body {
     color: black;
 }
 
-.column {
+.column.leftside {
+    width: 35%;
     float: left;
     padding: 10px;
 }
 
-/* 左右两侧宽度 */
-.column.leftside {
-    width: 30%;
-}
-
 .column.rightside {
-    width: 10%;
+    width: 15%;
+    float: left;
+    padding: 10px;
 }
 
 /* 中间区域宽度 */
 .column.middle {
-    width: 60%;
+    width: 50%;
+    padding: 10px;
 }
 
 /* 列后面清除浮动 */
