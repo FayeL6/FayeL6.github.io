@@ -41,15 +41,15 @@ body {
     padding: 10px;
 }
 
-.column.rightside {
-    width: 20%;
-    float: left;
+.column.middle {
+    width: 45%;
+    float: middle;
     padding: 10px;
 }
 
-/* 中间区域宽度 */
-.column.middle {
-    width: 45%;
+.column.rightside {
+    width: 20%;
+    float: left;
     padding: 10px;
 }
 
