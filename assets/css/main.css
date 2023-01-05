@@ -35,23 +35,19 @@ body {
     color: black;
 }
 
-.column {
-    float: left;
-  }
-
-.column.leftside {
+.leftColumn {
     width: 35%;
     float: right;
     padding: 10px;
 }
 
-.column.middle {
+.middleColumn {
     width: 45%;
     float: middle;
     padding: 10px;
 }
 
-.column.rightside {
+.rightColumn {
     width: 20%;
     float: left;
     padding: 10px;
