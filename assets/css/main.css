@@ -35,25 +35,19 @@ body {
     color: black;
 }
 
-.leftColumn {
-    width: 35%;
-    float: right;
-    padding: 10px;
-}
-
-.middleColumn {
-    width: 45%;
-    float: middle;
-    padding: 10px;
-}
-
-.rightColumn {
-    width: 20%;
+.column {
     float: left;
     padding: 10px;
-}
+  }
+  
+  .column.side {
+    width: 25%;
+  }
+  
+  .column.middle {
+    width: 50%;
+  }
 
-/* 列后面清除浮动 */
 .row:after {
     content: "";
     display: table;
