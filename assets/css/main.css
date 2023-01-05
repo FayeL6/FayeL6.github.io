@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: #f1f1f1;
+    background-image: "./assets/img/header.jpg";
     padding: 50px;
     text-align: center;
 }
