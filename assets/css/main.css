@@ -7,14 +7,22 @@ body {
 }
 
 .header {
-    background-image: "./assets/img/header.jpg";
-    padding: 50px;
+    height: 900px;
+    width: 100%;
     text-align: center;
+    line-height: 550px;
+    font-size: 22pt;
+    color: #F1F1F1;
+    background-image: url(../img/header.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    float: left;
 }
+
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #f2f2f2;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -24,7 +32,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,32 +43,34 @@ body {
     color: black;
 }
 
-.leftColumn {
+.column {
+    float: left
+}
+
+.column.left {
     width: 35%;
-    float: right;
+    float: left;
     padding: 10px;
 }
 
-.middleColumn {
+.column.middle {
     width: 45%;
     float: middle;
     padding: 10px;
 }
 
-.rightColumn {
+.column.right {
     width: 20%;
     float: left;
     padding: 10px;
 }
 
-/* 列后面清除浮动 */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* 响应式布局 - 宽度小于600px时设置上下布局 */
 @media screen and (max-width: 600px) {
 
     .column.side,
@@ -68,6 +78,13 @@ body {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
 
 .footer {
     background-color: #F1F1F1;
