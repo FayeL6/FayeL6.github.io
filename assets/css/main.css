@@ -50,7 +50,7 @@ body {
 }
 
 .column.left {
-    width: 32%;
+    width: 31%;
     float: left;
     padding: 10px;
 }
@@ -74,13 +74,13 @@ body {
 }
 
 .column.middle {
-    width: 45%;
+    width: 50%;
     float: middle;
     padding: 10px;
 }
 
 .column.right {
-    width: 23%;
+    width: 19%;
     float: left;
     padding: 10px;
 }
@@ -122,5 +122,8 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 4%;
+    margin-bottom: 4%;
     border-radius: 25px;
+    box-shadow: 5px 5px 2px #dcd8d2;
 }
+
