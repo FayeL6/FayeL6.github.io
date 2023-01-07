@@ -145,12 +145,11 @@ table,tr,td{margin:0px;padding:0px;}
 .card .topic {
     text-align: left;
     vertical-align: top;
-    font-weight: bolder;
     padding-left: -20%;
 }
 
 table{
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 
 .card-td {
